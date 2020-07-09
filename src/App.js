@@ -8,10 +8,10 @@ const todo = [
 {
   name: 'Cook Bacon',
   id: 123,
-  done: true
+  done: false
 },
 {
-  name: 'Call Allen',
+  name: 'Play Saxaphone',
   id: 124,
   done: false
 }
