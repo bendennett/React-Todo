@@ -10,7 +10,7 @@ const TodoList = props => {
             {props.todo.map(item => (
                 <Item key={item.id} item={item} toggleItem={props.toggleItem} />
             ))}
-            <button className="clear-btn" onClick={props.clearPurchased}>
+            <button className="clear-btn" onClick={props.clearDone}>
                 Clear Completed
             </button>
         </div>

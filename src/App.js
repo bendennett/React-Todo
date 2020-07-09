@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from "react-dom";
 
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
@@ -9,7 +8,7 @@ const todo = [
 {
   name: 'Cook Bacon',
   id: 123,
-  done: false
+  done: true
 },
 {
   name: 'Call Allen',
